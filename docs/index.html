@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chi Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Noto Sans JP', sans-serif;
+      background: #FFF8F3;
+      color: #2D1A0E;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ── Header ── */
+    header {
+      background: #C8623C;
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px 32px;
+    }
+    header h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+    }
+    header p {
+      margin-top: 6px;
+      font-size: 1rem;
+      opacity: 0.88;
+      font-weight: 400;
+    }
+
+    /* ── Main ── */
+    main {
+      flex: 1;
+      max-width: 680px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    main h2 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #8B4A2E;
+      margin-bottom: 16px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+
+    /* ── App Card ── */
+    .app-card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 2px 12px rgba(200, 98, 60, 0.08);
+      border: 1px solid #F2DDD4;
+      display: flex;
+      align-items: flex-start;
+      gap: 18px;
+    }
+
+    .app-icon {
+      font-size: 2.8rem;
+      flex-shrink: 0;
+      line-height: 1;
+    }
+
+    .app-info {
+      flex: 1;
+    }
+
+    .app-info h3 {
+      font-size: 1.3rem;
+      font-weight: 800;
+      color: #2D1A0E;
+      margin-bottom: 6px;
+    }
+
+    .app-info p {
+      font-size: 0.9rem;
+      color: #7A5442;
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
+
+    .btn-row {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 9px 20px;
+      border-radius: 8px;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-decoration: none;
+      transition: opacity 0.15s, transform 0.1s;
+      cursor: pointer;
+    }
+    .btn:hover { opacity: 0.85; transform: translateY(-1px); }
+    .btn:active { transform: translateY(0); }
+
+    .btn-primary {
+      background: #C8623C;
+      color: #fff;
+    }
+
+    .btn-secondary {
+      background: #fff;
+      color: #C8623C;
+      border: 2px solid #C8623C;
+    }
+
+    /* ── Footer ── */
+    footer {
+      text-align: center;
+      padding: 28px 20px;
+      font-size: 0.8rem;
+      color: #A07060;
+      border-top: 1px solid #F2DDD4;
+    }
+    footer a {
+      color: #C8623C;
+      text-decoration: none;
+    }
+    footer a:hover { text-decoration: underline; }
+    footer .divider { margin: 0 8px; opacity: 0.4; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Chi Studio</h1>
+    <p>個人アプリ開発</p>
+  </header>
+
+  <main>
+    <h2>アプリ一覧</h2>
+
+    <div class="app-card">
+      <div class="app-icon">🍪</div>
+      <div class="app-info">
+        <h3>Cookey</h3>
+        <p>冷蔵庫の食材からAIが献立を提案。<br>毎日の「今日何食べる？」をスマートに解決。</p>
+        <div class="btn-row">
+          <a href="./cookey/" class="btn btn-primary">サポートページ</a>
+          <a href="#" class="btn btn-secondary">App Store</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Chi Studio</p>
+    <p style="margin-top:6px;">
+      <a href="mailto:reizoai.app@gmail.com">reizoai.app@gmail.com</a>
+    </p>
+  </footer>
+
+</body>
+</html>

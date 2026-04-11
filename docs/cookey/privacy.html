@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>プライバシーポリシー | Cookey</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Noto Sans JP', sans-serif;
+      background: #FFF8F3;
+      color: #2D1A0E;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ── Header ── */
+    header {
+      background: #C8623C;
+      color: #fff;
+      padding: 36px 20px 28px;
+    }
+    .header-inner {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    .header-back {
+      display: inline-block;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: rgba(255,255,255,0.85);
+      text-decoration: none;
+      margin-bottom: 12px;
+    }
+    .header-back:hover { color: #fff; }
+    header h1 {
+      font-size: 1.7rem;
+      font-weight: 800;
+      letter-spacing: -0.3px;
+    }
+
+    /* ── Main ── */
+    main {
+      flex: 1;
+      max-width: 720px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 36px 20px;
+    }
+
+    .last-updated {
+      text-align: right;
+      font-size: 0.8rem;
+      color: #A07060;
+      margin-bottom: 12px;
+    }
+
+    .intro {
+      font-size: 0.9rem;
+      color: #7A5442;
+      line-height: 1.75;
+      margin-bottom: 24px;
+    }
+
+    /* ── Card ── */
+    .card {
+      background: #fff;
+      border-radius: 14px;
+      padding: 22px;
+      box-shadow: 0 2px 10px rgba(200, 98, 60, 0.07);
+      border: 1px solid #F2DDD4;
+      margin-bottom: 14px;
+    }
+
+    .card-title {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #C8623C;
+      margin-bottom: 14px;
+      letter-spacing: -0.1px;
+    }
+
+    .card-note {
+      font-size: 0.85rem;
+      color: #7A5442;
+      line-height: 1.7;
+      margin-bottom: 12px;
+    }
+
+    /* ── Item List ── */
+    .item {
+      padding: 10px 0;
+      border-bottom: 1px solid #F2DDD4;
+    }
+    .item:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+    .item-label {
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: #2D1A0E;
+      margin-bottom: 4px;
+    }
+    .item-desc {
+      font-size: 0.85rem;
+      color: #7A5442;
+      line-height: 1.7;
+    }
+    .item-url {
+      font-size: 0.78rem;
+      color: #C8623C;
+      margin-top: 3px;
+      word-break: break-all;
+      text-decoration: none;
+    }
+    .item-url:hover { text-decoration: underline; }
+
+    /* ── Body Text ── */
+    .body-text {
+      font-size: 0.87rem;
+      color: #7A5442;
+      line-height: 1.8;
+      margin-bottom: 10px;
+    }
+    .body-text:last-child { margin-bottom: 0; }
+    .bold { font-weight: 700; color: #2D1A0E; }
+
+    /* ── Highlight Box ── */
+    .highlight-box {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      background: #FFF0E8;
+      border-radius: 10px;
+      padding: 14px;
+      margin-bottom: 14px;
+      border: 1px solid #F2DDD4;
+    }
+    .highlight-icon { font-size: 1.2rem; flex-shrink: 0; }
+    .highlight-text {
+      font-size: 0.87rem;
+      color: #2D1A0E;
+      line-height: 1.75;
+    }
+
+    /* ── Contact Box ── */
+    .contact-box {
+      background: #FFF8F3;
+      border-radius: 10px;
+      padding: 16px;
+      margin-top: 6px;
+      border: 1px solid #F2DDD4;
+    }
+    .contact-label {
+      font-size: 0.75rem;
+      color: #A07060;
+      margin-bottom: 4px;
+    }
+    .contact-email {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #C8623C;
+      text-decoration: none;
+    }
+    .contact-email:hover { text-decoration: underline; }
+
+    /* ── Footer ── */
+    footer {
+      text-align: center;
+      padding: 28px 20px;
+      font-size: 0.8rem;
+      color: #A07060;
+      border-top: 1px solid #F2DDD4;
+    }
+    footer a {
+      color: #C8623C;
+      text-decoration: none;
+    }
+    footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <a href="./index.html" class="header-back">← Cookey サポート</a>
+      <h1>プライバシーポリシー</h1>
+    </div>
+  </header>
+
+  <main>
+
+    <p class="last-updated">最終更新日：2026年4月10日</p>
+
+    <p class="intro">
+      Cookey（以下「本アプリ」）は、ユーザーのプライバシーを尊重し、個人情報の適切な取り扱いに努めます。本ポリシーは、本アプリが収集・使用する情報について説明します。
+    </p>
+
+    <!-- 1. 収集する情報 -->
+    <div class="card">
+      <h2 class="card-title">1. 収集する情報</h2>
+      <div class="item">
+        <div class="item-label">・食材・献立データ</div>
+        <div class="item-desc">ユーザーが入力した食材リスト、生成された献立、お気に入りレシピ、買い物リスト、食材在庫などの情報。</div>
+      </div>
+      <div class="item">
+        <div class="item-label">・健康情報</div>
+        <div class="item-desc">体重・身長・年齢・性別・目標体重など、ユーザーが任意で入力するプロフィール情報。</div>
+      </div>
+      <div class="item">
+        <div class="item-label">・広告識別子</div>
+        <div class="item-desc">Google AdMob による広告配信のため、端末の広告識別子（IDFA / GAID）が使用される場合があります。</div>
+      </div>
+      <div class="item">
+        <div class="item-label">・アプリの使用状況</div>
+        <div class="item-desc">アプリのクラッシュ情報や機能の利用状況など、改善目的のデータ。個人を特定しない形で収集されます。</div>
+      </div>
+    </div>
+
+    <!-- 2. 情報の使用目的 -->
+    <div class="card">
+      <h2 class="card-title">2. 情報の使用目的</h2>
+      <div class="item">
+        <div class="item-label">・献立提案機能の提供</div>
+        <div class="item-desc">入力された食材・健康情報をもとに、AI による献立提案・栄養計算などの機能を提供するために使用します。</div>
+      </div>
+      <div class="item">
+        <div class="item-label">・広告の表示</div>
+        <div class="item-desc">Google AdMob を通じて、ユーザーに関連性の高い広告を表示するために使用します。</div>
+      </div>
+      <div class="item">
+        <div class="item-label">・アプリの改善</div>
+        <div class="item-desc">使用状況データをもとに、機能の改善・不具合修正を行います。</div>
+      </div>
+    </div>
+
+    <!-- 3. 第三者への提供 -->
+    <div class="card">
+      <h2 class="card-title">3. 第三者への提供</h2>
+      <p class="card-note">本アプリは以下のサービスを利用しており、各サービスの個人情報取り扱いポリシーが適用されます。</p>
+      <div class="item">
+        <div class="item-label">・Google AdMob</div>
+        <div class="item-desc">広告配信</div>
+        <a href="https://policies.google.com/privacy" target="_blank" rel="noopener" class="item-url">https://policies.google.com/privacy</a>
+      </div>
+      <div class="item">
+        <div class="item-label">・Google Gemini API</div>
+        <div class="item-desc">AI 献立提案機能（入力された食材等のプロンプトが送信されます）</div>
+        <a href="https://policies.google.com/privacy" target="_blank" rel="noopener" class="item-url">https://policies.google.com/privacy</a>
+      </div>
+      <div class="item">
+        <div class="item-label">・Oisix（オイシックス）</div>
+        <div class="item-desc">アフィリエイトリンク（食材購入先のご案内）</div>
+        <a href="https://www.oisix.com" target="_blank" rel="noopener" class="item-url">https://www.oisix.com</a>
+      </div>
+    </div>
+
+    <!-- 4. データの保存 -->
+    <div class="card">
+      <h2 class="card-title">4. データの保存</h2>
+      <div class="highlight-box">
+        <span class="highlight-icon">🔒</span>
+        <span class="highlight-text">
+          食材・献立・健康情報などのすべてのデータは、<strong>端末内にのみ保存</strong>されます。外部サーバーへの送信は行いません。
+        </span>
+      </div>
+      <p class="body-text">
+        ただし、AI 献立提案機能（献立生成・食材認識など）を利用する際は、入力内容（食材リスト・条件など）が Anthropic の API サーバーに送信されます。送信されるデータに氏名・連絡先などの個人情報は含まれません。
+      </p>
+      <p class="body-text">
+        アプリを削除した場合、端末内に保存されたすべてのデータは消去されます。
+      </p>
+    </div>
+
+    <!-- 5. 広告について -->
+    <div class="card">
+      <h2 class="card-title">5. 広告について</h2>
+      <p class="body-text">
+        本アプリは Google AdMob による広告を表示しています。広告のパーソナライズを希望しない場合は、端末の設定から「広告のパーソナライズを無効にする」または「広告 ID をリセット」することができます。
+      </p>
+      <p class="body-text">
+        また、アフィリエイトリンク（Oisix）を含む場合があります。該当箇所には「※PR」または「広告」の表記を行っています。
+      </p>
+    </div>
+
+    <!-- 6. お子様のプライバシー -->
+    <div class="card">
+      <h2 class="card-title">6. お子様のプライバシー</h2>
+      <p class="body-text">
+        本アプリは 13 歳未満のお子様を対象としていません。13 歳未満の方からの個人情報は意図的に収集しません。
+      </p>
+    </div>
+
+    <!-- 7. ポリシーの変更 -->
+    <div class="card">
+      <h2 class="card-title">7. プライバシーポリシーの変更</h2>
+      <p class="body-text">
+        本ポリシーは必要に応じて更新される場合があります。変更があった場合は、本ページの「最終更新日」を更新します。継続してアプリをご利用いただくことで、改訂後のポリシーに同意したものとみなします。
+      </p>
+    </div>
+
+    <!-- 8. お問い合わせ -->
+    <div class="card">
+      <h2 class="card-title">8. お問い合わせ</h2>
+      <p class="body-text">
+        本ポリシーに関するご質問・ご意見は、以下のメールアドレスまでお問い合わせください。
+      </p>
+      <div class="contact-box">
+        <div class="contact-label">メールアドレス</div>
+        <a href="mailto:reizoai.app@gmail.com" class="contact-email">reizoai.app@gmail.com</a>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>© 2025 Chi Studio</p>
+  </footer>
+
+</body>
+</html>
