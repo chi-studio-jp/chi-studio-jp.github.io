@@ -83,7 +83,7 @@
   <header class="page">
     <p class="eyebrow">登録販売者 過去問</p>
     <h1>プライバシーポリシー</h1>
-    <p class="meta">最終更新日：2026年10月17日</p>
+    <p class="meta">最終更新日：2026年10月27日</p>
   </header>
 
   <p class="lead">Chi Studio（以下「当方」といいます）は、当方が提供する iOS アプリ「登録販売者 過去問」（以下「本アプリ」といいます）における利用者の情報の取扱いについて、以下のとおりプライバシーポリシー（以下「本ポリシー」といいます）を定めます。</p>
@@ -111,7 +111,8 @@
     <tr><th>送信する情報</th><th>送信先・目的</th></tr>
     <tr><td>広告の表示に必要な情報（端末・アプリの情報、IPアドレス、広告の表示・タップなどの操作）</td><td>Google AdMob：広告の配信・効果測定。IPアドレスからおおよその地域が推定されることがあります。本アプリはパーソナライズしない広告のみを要求します。</td></tr>
     <tr><td>購入情報（購入したプラン、購入日・有効期限などの購入履歴）と、RevenueCat が発行する匿名の利用者ID</td><td>RevenueCat：有料プランの提供・管理、購入の復元。支払い情報（クレジットカード情報等）は Apple が処理し、当方および RevenueCat は取得しません。氏名・メールアドレス・上記の端末IDは送信しません。</td></tr>
-    <tr><td>AI機能で送信する内容：AI質問の質問文（電話番号・メールアドレスなどとみられる文字列は送信前に削除）とその問題の問題文・選択肢・正解・解説、模擬試験のAI総評のための成績（正誤・間違えた問題の情報）、詳細統計のAI総合分析のための学習の成績（正答率・苦手分野など）</td><td>Google Gemini API：AIによる回答・分析の生成。端末IDなど利用者を識別する情報は送信しません。AI質問には、氏名・連絡先・住所・勤務先などの個人情報を入力しないでください。</td></tr>
+    <tr><td>AI機能で送信する内容：AI質問の質問文（電話番号・メールアドレスなどとみられる文字列は送信前に削除）とその問題の問題文・選択肢・正解・解説、模擬試験のAI総評のための成績（正誤・間違えた問題の情報）、詳細統計のAI総合分析のための学習の成績（正答率・苦手分野など）</td><td>Google Gemini（Google Firebase の Firebase AI Logic を経由して Gemini Developer API を利用）：AIによる回答・分析の生成。端末IDなど利用者を識別する情報は送信しません。AI質問には、氏名・連絡先・住所・勤務先などの個人情報を入力しないでください。</td></tr>
+    <tr><td>AI機能を使うときに、正規の本アプリからの通信であることを確認するための情報（Apple の App Attest／DeviceCheck が発行する、端末上の本アプリが正規のものであることを示す証明と、それをもとに発行される確認用のトークン）</td><td>Google Firebase（App Check）：正規の本アプリ以外からの AI機能の不正な利用の防止。端末IDなど利用者を識別する情報は送信しません。</td></tr>
     <tr><td>問題ごとの解答数・正解数</td><td>Google Firebase（Cloud Firestore）：「みんなの正答率」の集計。端末IDなど利用者を識別する情報は送信しません。</td></tr>
     <tr><td>上記の端末IDと、復習の予定（問題・次回の復習日など）、学習時間・解いた問題数</td><td>Google Firebase（Cloud Firestore）：復習の予定・学習時間の保存。氏名など利用者を特定する情報とは結び付きません。</td></tr>
     <tr><td>AI質問のうち、AIが公開してよいと判定したもの：AIが整えた質問文（個人情報とみられる文字列は削除）とその表記をそろえたもの、AIの回答、対象の問題、閲覧数・「参考になった」・同じ質問の人数などの集計</td><td>Google Firebase（Cloud Firestore）：「みんなのQ&amp;A」として他の利用者に表示し、同じ質問への回答に再利用します。詳しくは第6項をご覧ください。端末IDは保存しません。</td></tr>
@@ -123,8 +124,8 @@
   <p>本アプリは次の外部サービスを利用しています。各サービスにおける情報の取扱いは、各社のポリシーをご確認ください。</p>
   <ul>
     <li>Google AdMob（Google LLC）：プライバシーポリシー <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a> ／ Google のサービスを使用するサイトやアプリから収集した情報の Google による使用 <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">https://policies.google.com/technologies/partner-sites</a></li>
-    <li>Google Firebase（Google LLC）：Firebase のプライバシーとセキュリティ <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">https://firebase.google.com/support/privacy</a></li>
-    <li>Google Gemini API（Google LLC）：Gemini API 追加利用規約 <a href="https://ai.google.dev/gemini-api/terms" target="_blank" rel="noopener">https://ai.google.dev/gemini-api/terms</a> ／ プライバシーポリシー <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a></li>
+    <li>Google Firebase（Google LLC。Cloud Firestore・Firebase AI Logic・App Check）：Firebase のプライバシーとセキュリティ <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">https://firebase.google.com/support/privacy</a></li>
+    <li>Google Gemini（Google LLC、Firebase AI Logic 経由で Gemini Developer API を利用）：Gemini API 追加利用規約 <a href="https://ai.google.dev/gemini-api/terms" target="_blank" rel="noopener">https://ai.google.dev/gemini-api/terms</a> ／ プライバシーポリシー <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a></li>
     <li>RevenueCat（RevenueCat, Inc.）：プライバシーポリシー <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">https://www.revenuecat.com/privacy</a></li>
     <li>Expo（650 Industries, Inc.）：プライバシーポリシー <a href="https://expo.dev/privacy" target="_blank" rel="noopener">https://expo.dev/privacy</a></li>
     <li>Apple（Apple Inc.）：App Store での購入・決済 プライバシーポリシー <a href="https://www.apple.com/jp/legal/privacy/" target="_blank" rel="noopener">https://www.apple.com/jp/legal/privacy/</a></li>
